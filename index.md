@@ -2,30 +2,17 @@
 title: Welcome
 ---
 
-This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
-**Edition** is perfect for documenting your product, application or service.
-It's populated with example content to give you some ideas.
+###记录、比较毫米波雷达各种算法
+本站主要涉及以下两大块内容
 
-ChatApp is a fictional chat application for sending messages and media to others.
-Teams and friend groups would use ChatApp to stay up to date if it existed.
+##### 1.[信号处理](http://www.baidu.com/)
 
-> [Sign up](http://example.com/signup) or learn more about ChatApp at [example.com](http://example.com/).
+>介绍毫米波雷达信号处理相关算法，包括不限于目标距离、速度、角度等。
 
-### Getting Started
+##### 2.[目标跟踪](http://www.baidu.com/)
 
-Getting a message sent is quick and easy with ChatApp:
+>围绕卡尔曼滤波展开各种跟踪、关联算法介绍、比较。
 
-1. Sign up for an account
-2. Add your friends from their email addresses
-3. Type a message or send a photo
+_ _ _
 
-> Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
-
-### 信号处理
-
-介绍毫米波雷达信号处理相关算法，包括不限于目标距离、速度、角度等等
-
-#### 目标跟踪
-
-围绕卡尔曼展开各种跟踪、关联算法介绍
-
+任何错误或讨论欢迎邮件 [feedback@example.com](mailto:feedback@example.com) 联系.

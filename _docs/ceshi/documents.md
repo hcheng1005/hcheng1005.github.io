@@ -1,6 +1,6 @@
 ---
 title: Documents
-category: Mediaxx
+category: Media
 order: 3
 ---
 
