@@ -21,18 +21,11 @@ Getting a message sent is quick and easy with ChatApp:
 
 > Feel free to send us a message at [feedback@example.com](mailto:feedback@example.com) with your feedback.
 
-### Features
+### 信号处理
 
-Explore more of ChatApp by reading about our features:
+介绍毫米波雷达信号处理相关算法，包括不限于目标距离、速度、角度等等
 
-#### Media
+#### 目标跟踪
 
-Send images, videos and other media to people. Sources include your computer, phone and Facebook.
+围绕卡尔曼展开各种跟踪、关联算法介绍
 
-#### Contact Syncing
-
-Sync your contact list with your phone and/or Facebook contacts. Never lose your contacts between devices again!
-
-#### Devices
-
-ChatApp is available everywhere. Find out how to set it up on your all your devices.
