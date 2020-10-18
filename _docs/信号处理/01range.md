@@ -3,7 +3,7 @@ title: 距离解算
 category: 信号处理
 order: 1
 ---
-![](bg1.png)
+![](https://github.com/hcheng1005/hcheng1005.github.io/blob/main/images/bg1.png)
 毫米波 (mmWave) 是一类使用短波长电磁波的特殊雷达技术。雷达系统发射的电磁波信号被其发射路径上的物体阻挡继而会发生反射。通过捕捉反射的信号，雷达系统可以确定物体的**距离**、**速度**和**角度**。
 
 Key words:
@@ -16,7 +16,7 @@ Key words:
 
 在雷达系统中，其基本概念是指电磁信号发射过程中被其发射路径上的物体阻挡进行的反射。FMCW雷达系统所用信号的频率随时间变化呈线性升高。这种类型的信号也称为**线性调频脉冲**。图1以幅度（振幅）相对时间的函数，显示了线性调频脉冲信号表示。
 
-![](range-01.png)
+![](https://github.com/hcheng1005/hcheng1005.github.io/blob/main/images/range-01.png)
 
 图 2 为同一个线性调频脉冲信号（频率作为时间的函数）。该线性调频脉冲具有**起始频率 (fc)**、**带宽(B)**和**持续时间(Tc)**。该线性调频脉冲的斜率(S)捕捉频率的变化率。在例子中图2提供的示例中，fc = 77 GHz，B = 4 GHz，Tc = 40 µs，S = 100 MHz/µs.
-![](range-02.png)
+![](https://github.com/hcheng1005/hcheng1005.github.io/blob/main/images/range-02.png)
