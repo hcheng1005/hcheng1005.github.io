@@ -14,7 +14,7 @@ Key words:
 3. 距离分辨率
 
 - - -
-
+#### 距离测量
 在雷达系统中，其基本概念是指电磁信号发射过程中被其发射路径上的物体阻挡进行的反射。FMCW雷达系统所用信号的频率随时间变化呈线性升高。这种类型的信号也称为**线性调频脉冲**。图1以幅度（振幅）相对时间的函数，显示了线性调频脉冲信号表示。
 <div align=center>
 <img src="{{site.url}}/images/range-01.png" width="300" height="200" div align=center />
@@ -24,3 +24,17 @@ Key words:
 <div align=center>
 <img src="{{site.url}}/images/range-02.png" width="300" height="200" />
 </div>
+
+#### 单目标检测
+雷达TX脉冲在遇到目标时会反射回接收机，混频器通过将RX和TX信号合并到一起，生成一个**中频(IF)信号**，通过计算中频信号的频率即可得出目标的距离位置（这里暂时假定不存在相对速度）。
+<div align=center>
+<img src="{{site.url}}/images/range-03.png" width="300" height="200" />
+</div>
+
+dsa aad a $x^2$
+
+$ \sum_{i=1}^n a_i $
+
+
+
+
