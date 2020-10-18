@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Pige Charles
+title: 皮格·查尔斯
 url: "https://hcheng1005.github.io/"
 baseurl:
 google_analytics_key:
@@ -15,7 +15,7 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Pige Charles
+  name: 皮格·查尔斯
   links:
     - https://github.com/hcheng1005/hcheng1005.github.io
 
