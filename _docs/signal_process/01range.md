@@ -31,7 +31,6 @@ Key words:
 </div>
 
 $$ \tau =\frac{2d}{c} $$
-
 其中d是与被检测物体的距离，c是光速。
 根据三角函数关系可得：
 $$ \frac{f_0}{\tau} = \frac{B}{T_c} $$
