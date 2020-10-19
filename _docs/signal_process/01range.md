@@ -30,32 +30,33 @@ Key words:
 <img src="{{site.url}}/images/range-03.png" width="300" height="200" />
 </div>
 
-$ \tau =\frac{2d}{c} $
+$$ \tau =\frac{2d}{c} $$
+
 其中d是与被检测物体的距离，c是光速。
 根据三角函数关系可得：
-$ \frac{f_0}{\tau} = \frac{B}{T_c} $
+$$ \frac{f_0}{\tau} = \frac{B}{T_c} $$
 因此可得:
-$ d = \frac{f_0c}{2s}$
+$$ d = \frac{f_0c}{2s}$$
 因此只要计算出差频$f_0$即可得出目标的距离。
 另外，IF信号的初始相位($\varphi_0$)是IF信号起点对应的时间点的TX线性调频脉冲相位与RX线性调频脉冲相位之差。
-$ \varphi_0 = 2pif_c\tau $
+$$ \varphi_0 = 2pif_c\tau $$
 可以得出：
-$ \varphi_0 = \frac{4pid}{\lambda} $
+$$ \varphi_0 = \frac{4pid}{\lambda} $$
 总结：对于与雷达相距d的物体，IF信号将是一个正弦波：
-$ Asin(2pif_0t+\varphi_0) $
+$$ Asin(2pif_0t+\varphi_0) $$
 其中$ f_0 = \frac{S2d}{c} $和$ \varphi_0 = \frac{4pid}{\lambda} $
 
 #### 距离分辨率
 距离分辨率是辨别两个或更多物体的能力。当两个物体靠近到某个位置时，雷达系统将不再能够将二者区分开物体。傅里叶变换理论指出，通过延长IF信号，可以提高分辨率。而延长IF信号，会按比例增加带宽。
 同时、傅里叶变换理论指出，观测窗口(T)可以分辨间隔超过1/THz的频率分量。因此，当两个频率频差满足如下关系时，便可以分辨出来：
-$ \Delta f > \frac{1}{T_c} $
+$$ \Delta f > \frac{1}{T_c} $$
 其中Tc是观测时间长度。
 由于
-$ \Delta f = \frac{S2\Delta d}{c} $
+$$ \Delta f = \frac{S2\Delta d}{c} $$
 可得
-$ \Delta d>\frac{c}{2ST_C}=\frac{c}{2B}  (由于B = STc)$
+$$ \Delta d>\frac{c}{2ST_C}=\frac{c}{2B}  (由于B = STc)$$
 因此距离分辨率$d_{Res}$仅取决于系统的带宽：
-$ d_{res} = \frac{c}{2B} $
+$$ d_{res} = \frac{c}{2B} $$
 
 
 
