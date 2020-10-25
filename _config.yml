@@ -39,6 +39,7 @@ header_pages:
 
 # Config section the home
 
+permalink: pretty
 
 # Build settings
 markdown: kramdown
