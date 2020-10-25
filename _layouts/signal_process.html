@@ -5,7 +5,7 @@ layout: default
 <div class="l-wrap">
   {% assign grouped = site.posts | group_by: 'category' %}
   {% for post in grouped %}
-		<article class="post {% if post.name == 'signal_process' %}current{% endif %}">
+		<article class="post {% if post.name == '信号处理' %}current{% endif %}">
 		{% assign items = post.items | sort: 'order' %}
 		{% for item in items %}
 		  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
