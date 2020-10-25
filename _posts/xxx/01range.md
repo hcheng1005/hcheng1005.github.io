@@ -1,7 +1,6 @@
 ---
-title: 距离解算
-category: 信号处理
-order: 1
+layout: post
+title: t4
 ---
 <img src="{{site.url}}/images/bg1.png"/>
 
