@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% for post in site.posts %}
+  {% assign grouped = site.posts | group_by: 'category' %}
+  {% for post in grouped %}
+	{% assign items = group.items | sort: 'order' %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
