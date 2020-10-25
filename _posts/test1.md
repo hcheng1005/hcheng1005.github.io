@@ -1,6 +1,6 @@
 ---
 layout: post
-title: t1
+title: post
 ---
 
 11111111111111111111
