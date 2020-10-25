@@ -4,6 +4,7 @@ layout: default
 
 <div class="l-wrap">
   {% for item in site.categories.DD %}
+  {% assign item = item | sort: 'order' %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
