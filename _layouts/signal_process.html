@@ -5,10 +5,9 @@ layout: default
 <div class="l-wrap">
   {% assign grouped = site.posts | group_by: 'category' %}
   {% for post in grouped %}
-	{% assign items = group.items | sort: 'order' %}
+		<article class="post {% if post.name == 'signal_process' %}current{% endif %}">
+		{% assign items = post.items | sort: 'order' %}
 		{% for item in items %}
-		<article class="post {% if group.name == 'signal_process' %}current{% endif %}">
-
 		  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
 		  <div class="entry">
@@ -18,7 +17,7 @@ layout: default
 		  <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
 		</article>
 		<hr class="hr-separator">
-	{% endfor %}
+		{% endfor %}
   {% endfor %}
 </div>
 
