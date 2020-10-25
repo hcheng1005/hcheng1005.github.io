@@ -3,16 +3,16 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% for post in site.posts %}
-    <article class="post {% if post.category == {{DD}} %}">
+  {% for item in site.posts %}
+    <article class="post {% if item.category == {{DD}} %}">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
+        {{ item.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+      <a href="{{ site.baseurl }}{{ item.url }}">Read More</a>
     </article>
     <hr class="hr-separator">
   {% endfor %}
