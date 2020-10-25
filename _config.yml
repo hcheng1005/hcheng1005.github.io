@@ -9,6 +9,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 email: your-email@domain.com
 
+
 # social links
 twitter_username: anxhe_
 github_username:  anxhe
@@ -58,6 +59,17 @@ jekyll-theme-experiment:
       - name: 目标跟踪
         github: https://www.baidu.com
         img_relative_url: /assets/example.png
+        
+      - name: 目标关联
+        link: https://hcheng1005.github.io/signal_process.html
+        github: https://www.baidu.com
+        img_relative_url: /assets/example.png
+
+      - name: PHD
+        github: https://www.baidu.com
+        img_relative_url: /assets/example.png
+        
+        
 
   tools:
     title: Tools and Experience
@@ -67,6 +79,7 @@ jekyll-theme-experiment:
       - relative_url: /assets/icons/git/git-original.svg
       - relative_url: /assets/icons/express/express-original.svg
       - relative_url: /assets/icons/angularjs/angularjs-original.svg
+
 
 exclude:
   - Gemfile
