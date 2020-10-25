@@ -54,7 +54,7 @@ jekyll-theme-experiment:
         img_relative_url: /assets/example.png
 
       - name: 目标跟踪
-        github: https://www.baidu.com
+        github: https://hcheng1005.github.io/track.html
         img_relative_url: /assets/example.png
         
       - name: 目标关联

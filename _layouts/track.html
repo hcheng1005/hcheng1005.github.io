@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% assign items = site.categories | sort: 'order' %}
+  {% assign items = site.categories.Track | sort: 'order' %}
   {% for item in items %}
 	
     <article class="post">
