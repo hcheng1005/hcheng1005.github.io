@@ -1,80 +1,72 @@
-# ----
-# Site
+author: GitHub User
+name: Your Username
 
-title: 皮格·查尔斯
-url: "https://hcheng1005.github.io/"
-baseurl:
-google_analytics_key:
-show_full_navigation: true
+title: your awesome title
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 
-# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Product documentation template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
-social:
-  name: 皮格·查尔斯
-  links:
-    - https://github.com/hcheng1005/hcheng1005.github.io
+email: your-email@domain.com
 
-# -----
-# Build
+# social links
+twitter_username: anxhe_
+github_username:  anxhe
+# rss: rss
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+#linkedin_username: jekyll
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: +jekyll
 
-timezone: Etc/UTC
+show_excerpts: false # set to true to show excerpts on the homepage
 
-permalink: pretty
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-feed
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# baseurl: http://127.0.0.1:4000
+header_pages:
+  - index.md
+  - blog.md
+
+# Config section the home
+
+
+# Build settings
+markdown: kramdown
+
+jekyll-theme-experiment:
+  about:
+    avatar : https://robohash.org/experiment-avatar.png?size=300x300
+
+  portfolio:
+    title: Portfolio
+    projects:
+
+      - name: Jekyll Theme experiment
+        github: https://hcheng1005.github.io/
+        img_relative_url: /assets/example.png
+
+      - name: Jekyll Theme experiment
+        github: https://hcheng1005.github.io/
+        img_relative_url: /assets/example.png
+
+  tools:
+    title: Tools and Experience
+    icons:
+      - relative_url: /assets/icons/bitbucket/bitbucket-original.svg
+      - relative_url: /assets/icons/heroku/heroku-original.svg
+      - relative_url: /assets/icons/git/git-original.svg
+      - relative_url: /assets/icons/express/express-original.svg
+      - relative_url: /assets/icons/angularjs/angularjs-original.svg
 
 exclude:
   - Gemfile
   - Gemfile.lock
-  - README.md
-  - LICENCE
-
-collections:
-  docs:
-    title: Documentation
-    permalink: /:path/
-    output: true
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      layout: default
-  -
-    scope:
-      path: ""
-      type: "docs"
-    values:
-      seo:
-        type: Article
-      _comments:
-        category: Group navigation links with this field
-        order: Used to sort links in the navigation
-      _options:
-        content:
-          width: 800
-          height: 2000
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      _comments:
-        type: Marks the impact of this release
-
-# -----------
-# CloudCannon
-
-types:
-  - minor
-  - major
-  
