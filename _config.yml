@@ -53,11 +53,12 @@ jekyll-theme-experiment:
         github: https://www.baidu.com
         img_relative_url: /assets/example.png
 
-      - name: 目标跟踪
+      - name: 卡尔曼滤波
+        link: https://hcheng1005.github.io/signal_process.html
         github: https://hcheng1005.github.io/track.html
         img_relative_url: /assets/example.png
         
-      - name: 目标关联
+      - name: 关联算法
         link: https://hcheng1005.github.io/signal_process.html
         github: https://www.baidu.com
         img_relative_url: /assets/example.png
