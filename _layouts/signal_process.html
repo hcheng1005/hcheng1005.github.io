@@ -3,21 +3,18 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% assign grouped = site.posts | group_by: 'category' %}
-  {% for group in grouped %}
-		<article class="post {% if group.name == {{'信号处理'}} %}current{% endif %}">
-		{% assign items = group.items | sort: 'order' %}
-		{% for post in items %}
-		  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  {% for post in site.posts.信号处理 %}
+    <article class="post">
 
-		  <div class="entry">
-			{{ post.excerpt }}
-		  </div>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-		  <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
-		</article>
-		<hr class="hr-separator">
-		{% endfor %}
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+    </article>
+    <hr class="hr-separator">
   {% endfor %}
 </div>
 
