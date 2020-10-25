@@ -50,12 +50,12 @@ jekyll-theme-experiment:
     title: Portfolio
     projects:
 
-      - name: Jekyll Theme experiment
-        github: https://hcheng1005.github.io/
+      - name: 信号处理
+        github: https://www.baidu.com
         img_relative_url: /assets/example.png
 
-      - name: Jekyll Theme experiment
-        github: https://hcheng1005.github.io/
+      - name: 目标跟踪
+        github: https://www.baidu.com
         img_relative_url: /assets/example.png
 
   tools:
