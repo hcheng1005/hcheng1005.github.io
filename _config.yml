@@ -80,6 +80,23 @@ jekyll-theme-experiment:
       - relative_url: /assets/icons/angularjs/angularjs-original.svg
 
 
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      seo:
+        type: Article
+      _comments:
+        category: Group navigation links with this field
+        order: Used to sort links in the navigation
+
 exclude:
   - Gemfile
   - Gemfile.lock
