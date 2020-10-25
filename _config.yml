@@ -51,7 +51,7 @@ jekyll-theme-experiment:
     projects:
 
       - name: 信号处理
-        link: https://www.baidu.com
+        link: https://hcheng1005.github.io/xinhaochuli.html
         github: https://www.baidu.com
         img_relative_url: /assets/example.png
 
