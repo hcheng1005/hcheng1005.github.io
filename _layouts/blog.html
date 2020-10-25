@@ -3,8 +3,8 @@ layout: default
 ---
 
 <div class="l-wrap">
-  {% assign grouped = site.categories.DD %}
-  {% for item in grouped % }
+  {% for item in site.categories.DD.sort %}
+	
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
