@@ -34,7 +34,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 header_pages:
   - index.md
   - blog.md
-  - pdf.md
+  - doc.md
 
 # Config section the home
 
