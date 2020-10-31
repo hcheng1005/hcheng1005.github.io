@@ -36,10 +36,6 @@ header_pages:
   - blog.md
   - doc.md
   
-docs:
-    title: Documentation
-    permalink: /:path/
-    output: true
 # Config section the home
 
 # Build settings
