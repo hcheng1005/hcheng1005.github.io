@@ -2,16 +2,16 @@
 layout: default
 ---
 
-	{% assign item = site.categories.PDF %}
-	<article class="l-wrap">
-		<div class="l-center-column head-post">
-			<hr class="hr-decorator">
-			<h1 class="title">{{ item.title | escape }}</h1>
-		</div>
-  
-		<div class="post">
-			{{ content }}
-		</div>
-	</article>
+{% assign item = site.categories.PDF %}
+<article class="l-wrap">
+	<div class="l-center-column head-post">
+		<hr class="hr-decorator">
+		<h1 class="title">{{ item.title | escape }}</h1>
+	</div>
+
+	<div class="post">
+		{{ content }}
+	</div>
+</article>
 
 {% include footer.html %}
