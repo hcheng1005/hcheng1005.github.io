@@ -34,9 +34,15 @@ show_excerpts: false # set to true to show excerpts on the homepage
 header_pages:
   - index.md
   - blog.md
-  - doc.md
+  - docs.md
   
 # Config section the home
+collections:
+  docs:
+    title: Documentation
+    permalink: /:path/
+    output: true
+
 
 # Build settings
 markdown: kramdown
