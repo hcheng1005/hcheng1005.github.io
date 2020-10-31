@@ -81,3 +81,6 @@ jekyll-theme-experiment:
 exclude:
   - Gemfile
   - Gemfile.lock
+  
+plugins:
+  - jekyll-pdf-embed
