@@ -10,10 +10,11 @@ layout: default
 
       <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
 
-      <div class="post">
-		{{ content }}
-	  </div>
+      <div class="entry">
+        {{ item.excerpt }}
+      </div>
 
+      <a href="{{ site.baseurl }}{{ item.url }}">Read More</a>
     </article>
     <hr class="hr-separator">
   {% endfor %}
