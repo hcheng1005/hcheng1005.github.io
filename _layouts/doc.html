@@ -2,22 +2,17 @@
 layout: default
 ---
 
-<div class="l-wrap">
-  {% assign items = site.docs %}
-  {% for item in items %}
-	
-    <article class="post">
+<article class="l-wrap">
+  {% assign item = site.categories.PDF %}
 
-      <h1><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></h1>
-
-      <div class="entry">
-        {{ item.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ item.url }}">Read More</a>
-    </article>
-    <hr class="hr-separator">
-  {% endfor %}
-</div>
+	<div class="l-center-column head-post">
+		<hr class="hr-decorator">
+		<h1 class="title">{{ item.title | escape }}</h1>
+	</div>
+  
+	<div class="post">
+    {{ content }}
+	</div>
+</article>
 
 {% include footer.html %}
