@@ -1,4 +1,4 @@
 ---
-layout: pdfs
-title: pdfs
+layout: pdf
+title: pdf
 ---
