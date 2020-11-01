@@ -9,9 +9,9 @@ order: 4
 
 **Key words**:
 
-1. 多维FFT
-2. 静态剔除
-_ _ _
+1. $$$ X_{nr} = \frac{1}{N}\sum_{c=1}^{N_{c}}X_{ncr} $$$
+
+- - -
 
 
 ### **处理流程一览**
@@ -23,13 +23,14 @@ _ _ _
 <br>
 基于上图的处理流程，可以大致将**静态剔除算法**分为以下步骤：
 
-	1 首先对所有chirp进行距离维FFT；
+1 首先对所有chirp进行距离维FFT；
 
-	2 每个距离维点（point）减去该点所有chirp的均值（mean）；
+2 每个距离维点（point）减去该点所有chirp的均值（mean）；
 
-	3 对该点的所有chirp数据再次进行FFT计算（Doppler—FFT）；
+3 对该点的所有chirp数据再次进行FFT计算（Doppler—FFT）；
 
-	4 该二维频谱图即剔除静态目标后的RDM（Range_Doppler_MAP）
+4 该二维频谱图即剔除静态目标后的RDM（Range_Doppler_MAP）
+
 <br>
 **部分代码如下**
 ```matlab
