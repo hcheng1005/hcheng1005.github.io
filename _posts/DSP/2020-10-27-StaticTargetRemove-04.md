@@ -11,17 +11,16 @@ order: 4
 
 1. 多维FFT
 2. 静态剔除
-
 _ _ _
 
 
-### **1	处理流程一览**
+### **处理流程一览**
 
 <div align=center>
 <img src="{{site.url}}/images/static-01.png" div align=center />
 </div>
 
-
+<br>
 基于上图的处理流程，可以大致将**静态剔除算法**分为以下步骤：
 
 	1 首先对所有chirp进行距离维FFT；
@@ -31,8 +30,7 @@ _ _ _
 	3 对该点的所有chirp数据再次进行FFT计算（Doppler—FFT）；
 
 	4 该二维频谱图即剔除静态目标后的RDM（Range_Doppler_MAP）
-
-
+<br>
 **部分代码如下**
 ```matlab
 % Static cluster Removal
@@ -53,8 +51,7 @@ end
 <div align=center>
 <img src="{{site.url}}/images/static-02.png" div align=center />
 </div>
-
-
+<br>
 [点击查看源文档]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
 
 
