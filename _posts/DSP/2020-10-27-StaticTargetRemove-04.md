@@ -7,9 +7,7 @@ order: 4
 
 本小节介绍如何进行**静态目标剔除**。
 
-**Key words**:
-
-1. $$$ X_{nr} = \frac{1}{N}\sum_{c=1}^{N_{c}}X_{ncr} $$$
+$$ X_{nr} = \frac{1}{N}\sum_{c=1}^{N_{c}}X_{ncr} $$
 
 - - -
 
