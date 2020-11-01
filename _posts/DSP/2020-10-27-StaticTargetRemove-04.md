@@ -32,19 +32,20 @@ _ _ _
 
 	4 该二维频谱图即剔除静态目标后的RDM（Range_Doppler_MAP）
 
+
 **部分代码如下**
 ```matlab
-	% Static cluster Removal
-	for i=1:8
-		% calculate meanValue
-		for j=1:Range_FFT_N
-			staticmeandata(j,i) = mean(rec1_data(j,1:Velocity_FFT_N,i));
-		end
-		% subtract meanValue
-		for k=1:Velocity_FFT_N
-			rec1_data(1:Range_FFT_N,k,i) = rec1_data(1:Range_FFT_N,k,i) -  staticmeandata(1:Range_FFT_N,i) ;
-		end
+% Static cluster Removal
+for i=1:8
+	% calculate meanValue
+	for j=1:Range_FFT_N
+		staticmeandata(j,i) = mean(rec1_data(j,1:Velocity_FFT_N,i));
 	end
+	% subtract meanValue
+	for k=1:Velocity_FFT_N
+		rec1_data(1:Range_FFT_N,k,i) = rec1_data(1:Range_FFT_N,k,i) -  staticmeandata(1:Range_FFT_N,i) ;
+	end
+end
 ```
 
 结果如下：
@@ -52,6 +53,7 @@ _ _ _
 <div align=center>
 <img src="{{site.url}}/images/static-02.png" div align=center />
 </div>
+
 
 [点击查看源文档]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
 
