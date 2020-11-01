@@ -18,7 +18,7 @@ _ _ _
 ### **1	处理流程一览**
 
 <div align=center>
-<img src="{{site.url}}/images/static-01.png" width="1159" height="498" div align=center />
+<img src="{{site.url}}/images/static-01.png" div align=center />
 </div>
 
 基于上图的处理流程，可以大致将**静态剔除算法**分为以下步骤：
@@ -46,10 +46,10 @@ _ _ _
 结果如下：
 
 <div align=center>
-<img src="{{site.url}}/images/static-02.fig.png"  div align=center />
+<img src="{{site.url}}/images/static-02.fig.jpg" div align=center />
 </div>
 
-
+[点击查看源文档]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor)
 
 
 
