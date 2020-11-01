@@ -50,8 +50,10 @@ end
 <div align=center>
 <img src="{{site.url}}/images/static-02.png" div align=center />
 </div>
+
 <br>
-[参考论文：PeopleCounting]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
+**参考资料**
+[1. PeopleCounting]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
 
 
 
