@@ -51,7 +51,7 @@ end
 <img src="{{site.url}}/images/static-02.png" div align=center />
 </div>
 <br>
-[点击查看源文档]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
+[参考论文：PeopleCounting]({{site.url}}/pdfs/People Tracking and Counting Reference Design Using mmWave Radar Sensor.pdf)
 
 
 
