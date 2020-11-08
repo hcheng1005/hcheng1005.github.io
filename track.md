@@ -1,4 +1,0 @@
----
-layout: track
-title: track
----
